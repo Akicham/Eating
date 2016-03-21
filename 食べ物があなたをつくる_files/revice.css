@@ -1,0 +1,179 @@
+/*-------  ここから共通のCSS（変更不要）  --------*/
+body {
+  margin: 0;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  color: #888;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #323A45;
+  transition: all .3s;
+}
+
+
+
+h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+h4, h5 {
+  color: #444;
+  font-size: 18px;
+}
+
+.container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*ここまで共通のcss*/
+/*ここからheader*/
+
+.header{
+
+height:60px;
+background-color:#ffffcc;
+position:fixed;
+box-shadow:-1px 1px 1px rgba(0,0,0,0.3);
+width:100%;
+}
+
+.header-left img{
+  height:60px;
+  }
+
+ .top-wrapper{ 
+
+   background-image:url(http://www.associe-net.co.jp/maca/images/ninshin6.jpg);
+   background-size: cover;
+   margin:0 auto;
+   text-align: center;
+   color:#222;
+   background-color:rgba(255.255.255.0.5);
+ }
+
+/*背景に以下がかからない*/
+ .top-wrapper-cover{
+  background-color:rgba(0.0.0.0.5);
+  padding:200px 0 140px 0;
+ }
+
+ .btn-top{
+   font-size: 24px;
+   display: inline-block;
+   border:5px solid #222;
+ }
+
+.top-text{
+   font-size: 20px;
+}
+/*ここからeating-contents*/
+
+.eating-contents{
+  text-align: center;
+}
+
+ .eating-title{
+  text-align: center;
+ }
+
+ .eating-item{
+  width:45%;
+  background:rgba(255,255,255,0.3);
+  display:inline-block;
+  height: 300px;
+ }
+
+ .eating-item img{
+  width:220px;
+  height:150px;
+ }
+
+ .eating-item h3{
+  font-size: 18px;
+ }
+
+/*js???*/
+ .eating-text{
+  display: none;
+ }
+
+.eating-hover{
+  display: block;
+}
+/*js???*/
+
+.btn-detail{
+  font-family: "Dosis", sans-serif;
+  background-color: rgba(0,0,0,0.3);
+  border:3px solid #000;
+}
+
+.btn-detail:hover{
+  background-color: rgba(0,0,0,0.6);
+  color:#fff;
+}
+
+/*ここまでeating-contents*/
+/*ここからproperty-wrapper*/
+
+.property-wrapper{
+  text-align: center;
+}
+
+.property-title{
+  font-size: 36px;
+}
+
+.property-item{
+  text-align: center;
+  margin:50px 0;
+}
+
+.property-item:hover{
+  background-color: #ffb3cc;
+}
+
+
+.property-item h1{
+  font-size: 34px;
+}
+
+ .property-item img{
+  width:220px;
+  height:150px;
+  border-radius: 50%;
+  border:2px solid #7f7f7f;
+ }
+
+ .property-item h2{
+  font-size: 26px;
+ }
+
+ .property-answer p{
+   width:400px;
+   display: inline-block;
+ }
+
+
+
+/*ここまでproperty*/

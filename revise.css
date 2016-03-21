@@ -1,0 +1,285 @@
+/*-------  ここから共通のCSS（変更不要）  --------*/
+body {
+  margin: 0;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  color: #888;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #323A45;
+  transition: all .3s;
+}
+
+
+
+h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+h4, h5 {
+  color: #444;
+  font-size: 18px;
+}
+
+.container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*ここまで共通のcss*/
+/*ここからheader*/
+
+.header{
+
+height:60px;
+background-color:#ffffcc;
+position:fixed;
+box-shadow:-1px 1px 1px rgba(0,0,0,0.3);
+width:100%;
+z-index: 100;
+}
+
+.header-left{
+  display: inline-block;
+}
+
+.header-left img{
+  height:60px;
+  }
+
+.header-right{
+  float:right;
+}
+
+.header-right-menu li{
+color:#323A45;  
+float:left;
+font-weight:bold;
+padding-right:20px;
+line-height: 50px;
+}
+
+.contents-top{
+  padding-top:50px;
+}
+
+ .top-wrapper{ 
+
+   background-image:url(http://www.associe-net.co.jp/maca/images/ninshin6.jpg);
+   background-size: cover;
+   margin:0 auto;
+   text-align: center;
+   color:#222;
+   /*background-color:rgba(255.255.255.0.5);*/
+ }
+
+/*背景に以下がかからない*/
+ .top-wrapper-cover{
+  background-color:rgba(255,255,255,0.5);
+  padding:200px 0 140px 0;
+ }
+
+ .btn-top{
+   font-size: 24px;
+   display: inline-block;
+   border:5px solid #222;
+ }
+
+.top-text{
+   font-size: 20px;
+}
+/*ここからeating-contents*/
+
+.eating-contents{
+  text-align: center;
+}
+
+ .eating-title{
+  text-align: center;
+ }
+
+ .eating-item{
+  width:45%;
+  background:rgba(255,255,255,0.3);
+  display:inline-block;
+  height: 300px;
+  margin-top: 30px;
+ }
+
+ .eating-item img{
+  width:220px;
+  height:150px;
+ }
+
+ .eating-item h3{
+  font-size: 18px;
+ }
+
+.eating-item-height{
+  height:100px;
+}
+
+
+/*js???*/
+.eating-text{
+  display: none;
+ }
+
+.eating-hover{
+  display: block;
+}
+/*js???*/
+
+.btn-detail{
+  font-family: "Dosis", sans-serif;
+  background-color: rgba(0,0,0,0.3);
+  border:1px solid (0,0,0,0.3);
+}
+
+.btn-detail:hover{
+  background-color: rgba(0,0,0,0.6);
+  color:#fff;
+  border:1px solid (0,0,0,0.6)
+}
+
+/*ここまでeating-contents*/
+/*ここからproperty-wrapper*/
+
+.property-wrapper{
+  text-align: center;
+}
+
+.property-title{
+  font-size: 36px;
+}
+
+.property-item{
+  text-align: center;
+  margin:0;
+  padding:20px 0;
+}
+
+.property-item:hover{
+  background-color: #ffb3cc;
+}
+
+
+.property-item h1{
+  font-size: 34px;
+}
+
+ .property-item img{
+  width:220px;
+  height:150px;
+  border-radius: 50%;
+  border:2px solid #7f7f7f;
+ }
+
+ .property-item h2{
+  font-size: 26px;
+ }
+
+.property-answer{
+  display: none;
+}
+
+ .property-answer p{
+   width:400px;
+   display: inline-block;
+ }
+
+/*ここまでproperty*/
+/*ここからkcal*/
+
+/*kcal table〜*/
+
+.kcal-wrapper{
+  background:#fff7e5;
+}
+
+.kcal-title{
+  font-size: 36px;
+  padding-top:20px;
+}
+
+table{
+  display:inline-block;
+  text-align:center;
+  font-size: 30px;
+  padding-top:50px;
+  border-collapse: collapse;
+}
+
+th{
+    color:#6699ff;
+    text-align:center;
+}
+
+td:hover{
+  color: #ff6699;
+}
+
+/*〜kcal table*/
+/*life-style-wrapper~*/
+
+.life-style-wrapper{
+  text-align: center;
+}
+
+.life-style-title h1{
+  font-size: 22px;
+  padding-bottom:20px;
+}
+
+.life-style-contents{
+  display:inline-block;
+  width:20%;
+  vertical-align: top;
+  padding-bottom:50px;
+}
+
+.life-style-contents img{
+  width:150px;
+  height: 150px;
+}
+
+.life-style-contents h2{
+  color:#6699ff;
+  font-weight:bold;
+}
+
+
+.life-style-contents p{
+  /*width:180px;*/
+}
+
+th,td{
+
+padding:10px 20px;
+}
+
+
+
+
+
+/*~life-style-wrapper*/
+
